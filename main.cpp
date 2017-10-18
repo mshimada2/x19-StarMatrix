@@ -1,6 +1,5 @@
 #include<vector>
 #include<string>
-#include<int>
 #include<iostream>
 
 
@@ -8,7 +7,7 @@ using namespace std;
 
 int main(){
 
-vector <vector<int>> star;
+vector <vector <int> > star = '*';
 
 int row;
 
@@ -25,12 +24,14 @@ cin>>column;
 
 for(int row = 0; row < star.size(); row++){
 
-    for(int column = 0; column star[row].size(); column++){
+    for(int column = 0; column < star[row].size(); column++){
 
-    cout<<endl<<star[row][column]<<;
-
-    }
+    cout<<endl<<star[row][column];
 
     }
 
+    }
 
+return 0;
+
+}
