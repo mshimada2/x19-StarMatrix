@@ -14,7 +14,19 @@ int row;
 
 int column;
 
-do{
+cout<<endl<<"Please enter a number value for the row (e.g. 5): ";
+cin>>row;
 
+cout<<endl<<"Next, please enter a number value for the column (e.g. 4): ";
+cin>>column;
+
+
+
+
+for(int row = 0; row < star.size(); row++){
+
+    for(int column = 0; column star.size(); column++){
+
+    cout<<endl<<"
 
 
