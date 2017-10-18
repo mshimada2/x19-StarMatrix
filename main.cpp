@@ -25,8 +25,12 @@ cin>>column;
 
 for(int row = 0; row < star.size(); row++){
 
-    for(int column = 0; column star.size(); column++){
+    for(int column = 0; column star[row].size(); column++){
 
-    cout<<endl<<"
+    cout<<endl<<star[row][column]<<;
+
+    }
+
+    }
 
 
