@@ -8,5 +8,13 @@ using namespace std;
 
 int main(){
 
+vector <vector<int>> star;
+
+int row;
+
+int column;
+
+do{
+
 
 
