@@ -15,7 +15,7 @@ int column;
 vector <vector <string> > star;
 
 
-cout<<endl<<"Please enter a number value for how many rows of stars you want(e.g. 5). Next, please enter a number value for the amount of columns you want: ";
+cout<<endl<<"Enter rows and columns of stars: ";
 cin>>row;
 cin>>column;
 
