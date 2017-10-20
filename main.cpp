@@ -7,11 +7,13 @@ using namespace std;
 
 int main(){
 
-vector <vector <int> > star;
 
 int row;
 
 int column;
+
+vector <vector <string> > star;
+
 
 cout<<endl<<"Please enter a number value for the row (e.g. 5): ";
 cin>>row;
@@ -22,23 +24,22 @@ cin>>column;
     star.resize(row);
 
 
-for(int row = 0; row < star.size(); row++){
+for(int r = 0; r < star.size(); r++){
 
-    star[row].resize(column);
+    star[r].resize(column);
     
     
-    for(int column = 0; column < star[row].size(); column++){
-
-    
-    star[row][column]
+    for(int c = 0; c < star[r].size(); c++){
 
     
-    cout<<endl<<star[row][column];
+    star[r][c] = '*';
+
+    
+    cout<<star[r][c];
 
     
     }
-
-    
+    cout<<endl;
     }
 
 return 0;
