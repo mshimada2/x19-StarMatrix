@@ -15,7 +15,7 @@ int column;
 vector <vector <string> > star;
 
 
-cout<<endl<<"Enter rows and columns of stars: ";
+cout<<"Enter rows and columns of stars: "<<endl;
 cin>>row;
 cin>>column;
 
