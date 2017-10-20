@@ -15,10 +15,8 @@ int column;
 vector <vector <string> > star;
 
 
-cout<<endl<<"Please enter a number value for the row (e.g. 5): ";
+cout<<endl<<"Please enter a number value for how many rows of stars you want(e.g. 5). Next, please enter a number value for the amount of columns you want: ";
 cin>>row;
-
-cout<<endl<<"Next, please enter a number value for the column (e.g. 4): ";
 cin>>column;
 
     star.resize(row);
