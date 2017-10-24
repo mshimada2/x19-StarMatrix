@@ -16,11 +16,25 @@ vector <vector <string> > star;
 
 
 cout<<"Enter rows and columns of stars:"<<endl;
+
 cin>>row;
 cin>>column;
 
-    star.resize(row);
+if(row == 0 || column == 0 || row < 0 || column < 0)
 
+{
+
+return 1;
+
+}
+
+
+
+else
+
+{
+
+    star.resize(row);
 
 for(int r = 0; r < star.size(); r++){
 
@@ -39,6 +53,8 @@ for(int r = 0; r < star.size(); r++){
     }
     cout<<endl;
     }
+
+}
 
 return 0;
 
